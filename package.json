@@ -13,6 +13,10 @@
     "react-animated-weather": "^4.0.1",
     "react-dom": "^18.2.0",
     "react-scripts": "^2.1.3",
+    "react-tsparticles": "^2.5.3",
+    "tsparticles": "^2.5.3",
+    "tsparticles-engine": "^2.5.2",
+    "tsparticles-preset-firefly": "^2.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
