@@ -49,3 +49,10 @@
   line-height: 1;
   top: -34px;
 }
+.WeatherTemperature a {
+  color: #0C6EFD;
+  text-decoration: none;
+}
+.WeatherTemperature a:hover {
+  color: #f96d00;
+}
