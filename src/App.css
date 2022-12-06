@@ -1,6 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.4;
+  transition: ease-in-out 3s;
+}
+video:hover {
+  scale: 150%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .App {
   max-width: 550px;
   margin: 40px auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .App footer {
@@ -15,5 +47,12 @@
   text-decoration: none;
 }
 .App a:hover {
-  color: #f96d00;
+  color: #ce4097;
+}
+.background {
+  max-width: 1550px;
+}
+footer {
+  box-shadow: rgba(255, 255, 255, 0.236) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.281) 0px 2px 16px 0px;
 }
